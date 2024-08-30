@@ -1,7 +1,7 @@
 Key Components:
 
     Data Preparation:
-        Dataset: The script reads a CSV file (data.csv) containing text samples and their corresponding emotion labels. Each text is assigned an emotion category represented as a numeric label.
+        Dataset: The script reads a CSV file (text.csv) containing text samples and their corresponding emotion labels. Each text is assigned an emotion category represented as a numeric label.
         Text Vectorization: The TfidfVectorizer converts text data into numerical features suitable for machine learning models.
 
     Model Definition:
@@ -33,5 +33,3 @@ Benefits:
     Flexibility: The interactive component allows for real-time predictions on user-provided text data.
 
 This ensemble-based approach helps to address the limitations of individual models by aggregating their predictions, thereby offering a more accurate and reliable emotion classification system.
-
-Feel free to modify the description based on specific details or additional functionalities you might have included in the script.
